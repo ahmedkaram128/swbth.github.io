@@ -1,3 +1,10 @@
+const music = document.getElementById("bg-music");
+music.src = "01.Amarain.mp3";
+
+document.addEventListener("click", () => {
+  music.play();
+}, { once: true });
+
 // Cursor following effect
 const cursor = document.querySelector('.cursor');
 document.addEventListener('mousemove', (e) => {
